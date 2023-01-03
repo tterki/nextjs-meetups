@@ -6,10 +6,10 @@ import { Fragment } from "react";
 function HomePage(props) {
   return (
     <Fragment>
-      <head>
+      <Head>
         <title>React Meetups</title>
         <meta name="description" content="browse a huge list of react meetups"></meta>
-      </head>
+      </Head>
       <MeetupList meetups={props.meetups} />
     </Fragment>
   );
